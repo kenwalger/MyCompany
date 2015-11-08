@@ -25,11 +25,11 @@
   z-index       : 1000;
 
   // modal class
-  .modal {
+  .modalDialog {
 
     // sizing & layout
     width       : 50%;
-    position    : fixed;
+    position    : relative;
     top         : 7.5%;
     margin      : 10% 0 0 25%;
     padding     : $spaceMedium;

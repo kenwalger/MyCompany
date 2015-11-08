@@ -3,6 +3,8 @@
 // =============================================================
 
 
+// button generator
+
 @mixin button($btnColor, $btnSize) {
   > .btn {
 
@@ -58,6 +60,8 @@
   }
 }
 
+// Format link icons
+
 @mixin link-icon($image) {
   &::before {
     // background
@@ -76,3 +80,5 @@
 
   }
 }
+
+

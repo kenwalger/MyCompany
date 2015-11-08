@@ -1,3 +1,4 @@
 .idea
 /providedAssets
 /node_modules
+.sass-cache
