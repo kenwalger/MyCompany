@@ -1,0 +1,22 @@
+// =============================================================
+// Nav Bar
+// =============================================================
+
+
+#title h3{
+  display: none;
+}
+
+
+#nav {
+  overflow: auto;
+  text-align: center;
+  padding: $spaceSmall 7.5%;
+  @include button($primary, 49%);
+}
+
+
+#nav .btn {
+  float: left;
+  margin: .5% .5%;
+}

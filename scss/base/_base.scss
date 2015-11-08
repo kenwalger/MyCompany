@@ -1,0 +1,45 @@
+//==============================================================
+// Base Settings
+//==============================================================
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0 0;
+}
+
+h2, h3, p {
+  font-family: $font-family--primary;
+}
+
+h2, h3 {
+  line-height: 2.5rem;
+}
+
+p {
+  margin: 0 0;
+  line-height: 1.5rem;
+}
+
+h2 {
+  margin: $spaceSmall 0;
+  font-size: 3rem;
+  font-weight: $font-weight--light;
+  padding-bottom: 1rem;
+  @media only screen and (min-width: $secondBreakPoint) {
+    font-size: 5rem;
+    margin-bottom: $spaceSmall;
+  }
+}
+
+h3 {
+  margin: 0 0 $spaceSmall 0;
+  font-size: 2.5rem;
+  font-weight: $font-weight--light;
+  @media only screen and (min-width: $secondBreakPoint) {
+    font-size: 3.5rem;
+    margin-top: $spaceMedium;
+  }
+}

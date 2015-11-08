@@ -1,0 +1,78 @@
+// =============================================================
+// Mixins
+// =============================================================
+
+
+@mixin button($btnColor, $btnSize) {
+  > .btn {
+
+    // color components
+    color       : $textColor;
+    background  : $transLight;
+
+
+    // font components
+    font-family : $font-family--primary;
+    font-weight : $font-weight--bold;
+    font-size   : .65rem;
+
+
+    // spacing components
+    letter-spacing : .1em;
+    padding        : $spaceSmall 0;
+
+
+    // alignment settings
+    display    : inline-block;
+    text-align : center;
+
+    //side & shape components
+    width    : $btnSize;
+    border-radius  : $borderRadSm;
+
+    // misc
+    text-decoration: none;
+
+
+    &.active {
+      background  : $btnColor;
+      color       : $textColorSecondary;
+    }
+    &.static {
+      background  : $btnColor;
+      color       : $textColorSecondary;
+      margin      : $spaceSmall 0;
+    }
+    &:hover {
+      color : $silver;
+    }
+    @media only screen and (min-width : $secondBreakPoint) {
+      padding : $spaceSmall $spaceMedium;
+      width   : auto;
+    }
+
+    @media only screen and (min-width : $firstBreakPoint) {
+      padding : $spaceSmall $spaceMedium;
+      width   : auto;
+    }
+  }
+}
+
+@mixin link-icon($image) {
+  &::before {
+    // background
+    background      : $image;
+    background-size : contain;
+
+    // size & shaping
+    width           : 22px;
+    height          : 22px;
+    margin-right    : $spaceSmall;
+
+    // alignment & misc
+    display         : inline-block;
+    vertical-align  : bottom;
+    content         : "";
+
+  }
+}

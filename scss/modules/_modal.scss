@@ -1,0 +1,51 @@
+// =============================================================
+// Modal Window
+// =============================================================
+
+// Select all id elements that begin with "modal"
+[id^="modal"] {
+
+  // position
+  position      : fixed;
+  left          : 0;
+  top           : 0;
+
+  // appearance
+  visibility    : hidden;
+  opacity       : 0;
+  background    : $transDark;
+  transition    : opacity $transitionTime, visibility $transitionTime;
+
+  // size
+  width         : 100%;
+  height        : 100%;
+
+  // misc
+  text-align    : center;
+  z-index       : 1000;
+
+  // modal class
+  .modal {
+
+    // sizing & layout
+    width       : 50%;
+    position    : fixed;
+    top         : 7.5%;
+    margin      : 10% 0 0 25%;
+    padding     : $spaceMedium;
+
+    // border
+    border            : none;
+    border-radius     : $borderRadSm;
+
+    // appearance
+    background-color  : $white;
+    text-align        : left;
+
+    @include button($btnPrimary, 40%);
+    h2 {
+      font-size: 3.75rem;
+      text-align : left;
+    }
+  }
+}

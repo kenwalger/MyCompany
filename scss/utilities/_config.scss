@@ -1,0 +1,49 @@
+// =============================================================
+// Global Config
+// =============================================================
+
+// Font Stack
+
+$font-url--google: 'https://fonts.googleapis.com/css?family=Raleway:300,600';
+$font-family--primary: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-weight--bold: 600;
+$font-weight--light: 300;
+
+$black        : black;
+$white        : white;
+$grandis      : #ffd18f;
+$pictonBlue   : #33c3f0;
+$copperField  : #d78f61;
+$easternBlue  : #1eaeb8;
+$silver       : #c7c7c7;
+$linkGray         : #828282;
+$buttonGray   : #7f7f7f;
+
+$primary      : $pictonBlue;
+$secondary    : $copperField;
+$transLight   : rgba(255,255,255,.5);
+$transDark    : rgba(0,0,0,.5);
+
+$btnPrimary         : $primary;
+$btnSecondary       : $secondary;
+$textColor          : $black;
+$textColorSecondary : $white;
+
+$spaceSmall       : 12px;
+$spaceMedium      : $spaceSmall * 2;
+$spaceLarge       : $spaceSmall * 2.666;
+
+$borderRadSm      : 8px;
+$borderRadLg      : $spaceSmall;
+
+$firstBreakPoint  : 768px;
+$secondBreakPoint : 1100px;
+
+$transitionTime   : .5s;
+
+
+// Image Resources
+
+$header   : url("../images/header.jpg");
+$twitter  : url("../images/twitter.svg");
+$github   : url("../images/github.svg");

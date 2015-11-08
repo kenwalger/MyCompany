@@ -1,0 +1,27 @@
+// =============================================================
+// Footer
+// =============================================================
+
+
+footer {
+  margin-top: $spaceMedium;
+  overflow: auto;
+  background: $black;
+  color: $white;
+  padding: $spaceMedium $spaceLarge;
+}
+
+
+footer a {
+  margin-top: $spaceSmall;
+  display: block;
+  text-decoration: none;
+  color: $primary;
+  font-family: $font-family--primary;
+  &.twitter {
+    @include link-icon($twitter);
+  }
+  &.github {
+    @include link-icon($github);
+  }
+}

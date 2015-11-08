@@ -1,0 +1,18 @@
+// =============================================================
+// Header
+// =============================================================
+
+
+.heading {
+  @include button($btnPrimary, 35%);
+  text-align   : center;
+}
+
+
+header {
+  background-image    : $header;
+  background-repeat   : no-repeat;
+  background-position : center 20%;
+  background-size     : contain;
+  padding             : $spaceSmall 0;
+}

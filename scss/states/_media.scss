@@ -1,0 +1,114 @@
+//==============================================================
+// Media Queries
+//==============================================================
+
+
+// small to medium
+@media only screen and (max-width: $firstBreakPoint) {
+  header {
+    background-position   : center 25%;
+    background-size       : cover;
+    height                : 150%;
+  }
+
+  [id^="modal"] {
+    .modal {
+      h2 {
+        font-size : 2rem;
+      }
+    }
+  }
+
+}
+
+// medium to large
+@media only screen and (min-width: $firstBreakPoint) and (max-width: $secondBreakPoint) {
+  header {
+    background-position   : center 25%;
+    background-size       : 100%;
+    padding               : 0;
+  }
+
+  .rows {
+    padding : 0 10%;
+  }
+
+  .title {
+    margin: $spaceMedium $spaceMedium;
+    padding: $spaceSmall 0;
+  }
+
+  footer {
+    padding: $spaceMedium 10%;
+  }
+
+  #nav .btn {
+    float         : none;
+  }
+
+  [id^="modal"] {
+    .modal {
+      h2 {
+        font-size : 2.5rem;
+      }
+    }
+  }
+
+  .clear {
+    clear : none;
+  }
+}
+
+// large on up
+@media only screen and (min-width: $secondBreakPoint) {
+
+  header {
+    padding-bottom  : 100px;
+    background-size : 100%;
+  }
+
+  .heading {
+    margin-top : 75px;
+  }
+
+  .rows {
+    padding : 0 10%;
+  }
+
+  .title {
+    margin  : $spaceMedium $spaceMedium;
+    padding : $spaceSmall 0;
+  }
+
+  footer {
+    padding : $spaceMedium 10%;
+  }
+
+  #navbar {
+      overflow    : auto;
+      background  : $black;
+      padding     : $spaceSmall 10% 0 10%;
+      margin-top  : -12px;
+  }
+
+  #title h3 {
+    display       : inline-block;
+    float         : left;
+    width         : 30%;
+    margin        : 5px 0 $spaceSmall 0;
+    color         : $grandis;
+    font-size     : 2rem;
+    font-weight   : $font-weight--bold;
+    text-align    : left;
+  }
+
+  #nav {
+    text-align    : right;
+    padding       : 0 0;
+    padding-right : $spaceSmall;
+  }
+
+  #nav .btn {
+    float         : none;
+  }
+}

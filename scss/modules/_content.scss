@@ -1,0 +1,19 @@
+// =============================================================
+// Content
+// =============================================================
+
+.title {
+  text-align: center;
+  margin: 0 $spaceMedium;
+}
+
+.rows {
+  overflow: auto;
+  & > div {
+    @include button($btnSecondary, 40%);
+  }
+}
+
+#sections .btn {
+  margin-top: $spaceSmall;
+}

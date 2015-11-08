@@ -1,0 +1,30 @@
+// =============================================================
+// Grid System
+// =============================================================
+
+[class^="column-"] {
+   margin: $spaceSmall $spaceLarge $spaceLarge;
+   @media only screen and (min-width: $firstBreakPoint) {
+     float: left;
+     margin: 0 5% 0 0;
+     &:nth-child(3) {
+       margin-right: 0;
+     }
+   }
+ }
+
+.column-4 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: calc(90% / 3);
+  }
+}
+
+.column-8 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: calc(90% / 3 * 2);
+  }
+}
+
+.clear {
+  clear: left;
+}
