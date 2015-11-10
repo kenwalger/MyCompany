@@ -34,7 +34,7 @@ Approach
 
 5. CSS layout with SCSS
 
-> Get the general layout, grid system, nav, header, and footer.
+> Generate the general layout, grid system, nav, header, and footer.
 
 6. Modal operation
 
@@ -43,7 +43,7 @@ chosen to use a front-end framework such as [Bootstrap](http://www.http://getboo
 [Foundation](http://www.http://foundation.zurb.com/ "Zurb Foundation") they have modal options as well. My implementation
 of the modal window is accomplished with some CSS for the modal formatting and JavaScript's 
 [**HTMLElement.style**](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style "HTMLElement.style") property
-to change _visibility_ and _opacity_ of the modal window.
+to change _visibility_ and _opacity_ of the modal window. Sometimes a minimal approach is best.
 
 7. Adjustments to meet design spec.
 
