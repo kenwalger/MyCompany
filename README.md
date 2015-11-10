@@ -1,8 +1,6 @@
 [Treehouse](https://www.teamtreehouse.com "Treehouse") Mentor Project
 ===
 
-Ken W. Alger
----
 
 Approach
 ====
