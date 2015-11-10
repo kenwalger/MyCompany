@@ -40,7 +40,8 @@ chosen to use a front-end framework such as [Bootstrap](http://www.http://getboo
 [Foundation](http://www.http://foundation.zurb.com/ "Zurb Foundation") they have modal options as well. My implementation
 of the modal window is accomplished with some CSS for the modal formatting and JavaScript's 
 [**HTMLElement.style**](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style "HTMLElement.style") property
-to change _visibility_ and _opacity_ of the modal window. Sometimes a minimal approach is best.
+to change _visibility_ and _opacity_ of the modal window. Sometimes a minimal approach is best. jQuery and the jQuery UI
+ would have been another approach with *dialog* or something like *SimpleModal*. 
 
 7. Adjustments to meet design spec.
 
