@@ -401,12 +401,52 @@ h3 {
         margin-right: 0; } }
 
 @media only screen and (min-width: 768px) {
+  .column-1 {
+    width: 7.5%; } }
+
+@media only screen and (min-width: 768px) {
+  .column-2 {
+    width: 15%; } }
+
+@media only screen and (min-width: 768px) {
+  .column-3 {
+    width: 22.5%; } }
+
+@media only screen and (min-width: 768px) {
   .column-4 {
-    width: calc(90% / 3); } }
+    width: 30%; } }
+
+@media only screen and (min-width: 768px) {
+  .column-5 {
+    width: 37.5%; } }
+
+@media only screen and (min-width: 768px) {
+  .column-6 {
+    width: 45%; } }
+
+@media only screen and (min-width: 768px) {
+  .column-7 {
+    width: 52.5%; } }
 
 @media only screen and (min-width: 768px) {
   .column-8 {
-    width: calc(90% / 3 * 2); } }
+    width: 60%; } }
+
+@media only screen and (min-width: 768px) {
+  .column-9 {
+    width: 67.5%; } }
+
+@media only screen and (min-width: 768px) {
+  .column-10 {
+    width: 75%; } }
+
+@media only screen and (min-width: 768px) {
+  .column-11 {
+    width: 82.5%; } }
+
+@media only screen and (min-width: 768px) {
+  .column-12 {
+    width: 90%; } }
 
 .clear {
   clear: left; }

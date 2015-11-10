@@ -13,15 +13,74 @@
   }
 }
 
+.column-1 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: 7.5%;
+  }
+}
+
+.column-2 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: 15%;
+  }
+}
+.column-3 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: 22.5%;
+  }
+}
+
 .column-4 {
   @media only screen and (min-width: $firstBreakPoint) {
-    width: calc(90% / 3);
+    width: 30%;
+  }
+}
+
+.column-5 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: 37.5%;
+  }
+}
+
+.column-6 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: 45%;
+  }
+}
+
+.column-7 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: 52.5%;
   }
 }
 
 .column-8 {
   @media only screen and (min-width: $firstBreakPoint) {
-    width: calc(90% / 3 * 2);
+    width: 60%;
+  }
+}
+
+.column-9 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: 67.5%;
+  }
+}
+
+.column-10 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: 75%;
+  }
+}
+
+.column-11 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: 82.5%;
+  }
+}
+
+.column-12 {
+  @media only screen and (min-width: $firstBreakPoint) {
+    width: 90%;
   }
 }
 
